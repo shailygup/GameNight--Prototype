@@ -1,0 +1,291 @@
+body { 
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+	background-color: #e7dfdd;
+	color: gray;
+
+}
+a:hover{
+	text-decoration: none;
+}
+
+#main-menu .nav-bar { 
+	list-style:none;
+	 margin-top: 20px; 
+
+}
+#main-menu .nav-bar li { 
+	display:inline;
+	 padding:0 10px; 
+	 margin-left: -10px;
+}
+
+#navigation{
+	background-color: #07889b;
+}
+
+#main-menu .nav-bar li a {
+  text-decoration: none;
+  padding-left: 25px;
+  text-transform: uppercase;
+  color: #333;
+  text-shadow: 1px 1px 1px #ccc;
+}
+
+.nav-bar .nav-button-home a { background:url("http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/home.gif") no-repeat 0px -2px transparent; }
+
+.nav-bar .nav-button-services a { background:url("http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/services.gif") no-repeat 0px -2px transparent; }
+
+.nav-bar .nav-button-products a { background:url("http://www.cheesetoast.co.uk/cheesepress/wp-content/uploads/2012/08/products.gif") no-repeat 0px -2px transparent; }
+
+/* Icons courtesy of Thom : http://pixelb.in/assorted-pixel-perfect-14px-icon-set-286/ */
+
+#j1{
+	height : 50px;
+	
+	background-color: #07889b;
+	color: #e7dfdd;
+}
+.menu{
+	color: #e7dfdd;
+}
+
+.modalDialog {
+	position: fixed;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	top: 20px;
+	right: 20px;
+	bottom: 60px;
+	left: 20px;
+	background: #FF7256;
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 50%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.modalDialog1 {
+	position: fixed;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+.modalDialog1:target {
+	opacity:1;
+	pointer-events: auto;
+}
+.modalDialog1 > div {
+	width: 50%;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+	background: #fff;
+	background: -moz-linear-gradient(#fff, #999);
+	background: -webkit-linear-gradient(#fff, #999);
+	background: -o-linear-gradient(#fff, #999);
+}
+
+.close1 {
+	background: #000;
+	color: #fff;
+	line-height: 25px;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	font-weight: bold;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	-moz-box-shadow: 1px 1px 3px #fff;
+	-webkit-box-shadow: 1px 1px 3px #fff;
+	box-shadow: 1px 1px 3px #fff;
+	text-decoration: none;
+}
+
+.close1:hover { 
+	background: #C1CDC1; 
+	text-decoration: none;
+}
+
+.form-group{
+	text-align: center;
+}
+.form-group button{
+	background-color: #07889B;
+}
+
+.galleryItem {
+    /*background: #4488ee;*/
+    text-align: center;
+    float: left;
+    /* NOTE: TAKE THE WIDTH PROPERTY OUT TO SEE WHAT HAPPENS */
+    width: 22%;
+    /*border: 1px solid;*/
+    /* top right bottom left */
+    margin:  1% 1% 2% 2%;
+}
+
+.galleryItem h3 {
+    text-transform: uppercase;
+}
+
+.galleryItem h3 p {
+    padding-left: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 5px;
+}
+
+
+.galleryItem img {
+    max-width: 100%;
+    display: block;
+    padding: 1em 0em 0em 0em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#event1{
+	float: center;
+	width: 90%;
+	border: 1px solid #e37222;
+	padding: 1em 1em 1.5em 1em;
+	margin: 1% 1% 5% 5%;
+}
+
+.createEvent{
+	color:#e37222;
+}
+.createEvent:hover{
+	color: #FFC469;
+}
+
+
+.formStuff input{
+	width: 90%;
+}
+
+.glyphicon{
+	font-size: 1.4em;
+}
+
+#j2{
+	margin-top: -40px;
+	height: 200px;
+}
+
+/**
+ * Profile image component
+ */
+.profile-header-container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -150px;
+}
+
+.profile-header-img {
+    padding: 54px;
+}
+
+.profile-header-img > img.img-circle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #07889B;
+}
+
+.profile-header {
+    margin-top: 43px;
+}
+
+/**
+ * Ranking component
+ */
+.rank-label-container {
+    margin-top: -19px;
+    /* z-index: 1000; */
+    text-align: center;
+}
+.inviteContainer{
+	width:100%;
+	margin: 30px auto;
+	overflow: hidden;
+	
+}
+
+.eventItem{
+	float: center;
+	width: 90%;
+	border: 1px solid #e37222;
+	padding: 1em 1em 1.5em 1em;
+	margin: 1% 1% 5% 5%;
+}
+
+.attnInfo{
+	float: right;
+	text-align: center;
+	width: 40%;
+	margin-top: -75pt;
+	margin-right: -15pt;
+}
+.label.label-default.rank-label {
+    background-color: #07889B;
+    padding: 5px 10px 5px 10px;
+    border-radius: 27px;
+}
+#friends{
+	margin-bottom: 70px;
+}
+#reset{
+	color: #ff0000;
+}
+#infoProfile{
+	margin-bottom: 70px;
+}
+.declined{
+	margin-bottom: 70px;
+}
+#menuSettings{
+	font-size: 20%;
+}
+#menuSettings a:hover{
+	color: #8DB6CD;
+}
+#example
+  {
+    cursor:pointer;
+  }
+ #upload-wrapper{
+ 	margin-left: 50px;
+ 	width: 240px;
+
+  }
